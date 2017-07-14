@@ -44,7 +44,7 @@ function createToken(user) {
             name: user.name,
             username: user.username
         }, secretKey,
-        // {expiresIn: 60 * 60}
+         {expiresIn: 60 * 60}
     );
     return token;
 }
